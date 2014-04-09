@@ -1,0 +1,16 @@
+In addition to instructions, I had to install:
+grunt ~ npm insatll -g grunt
+bower ~ npm install -g bower
+
+
+
+Actually, bower may be optional.  Isn't it an alternative package manager to NPM?  Good to have on system though.
+
+Additional Instructions (root):
+ 
+  1. Download http://angular-ui.github.com/bootstrap/ui-bootstrap-tpls-0.1.0.js
+  2. Include it in your index.html <script src="ui-bootstrap-tpls-0.1.0.js"></script>
+  3. Declare your app with ui-bootstrap as a dependency angular.module("myApp", ['ui.bootstrap']);
+  4. Enjoy!
+
+We should put that in the readme too probably.
